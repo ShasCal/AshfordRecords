@@ -9,3 +9,5 @@ Includes basics to learn how to use different programming languages together to 
 4. SQL (databases)
 
 Expect errors and inefficiency. Better GUI/graphic design is to be expected in the future. This is intended to be a simple website for easy understanding from the writer.
+
+The writer prefers to minimise use of AI in their work, so any bad graphics are a result of using free software/websites e.g. paint.
