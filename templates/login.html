@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %} Welcome To The Login Page {% endblock %}
+
+{% block content %}
+<h2>Please login to your user account:</h2>
+
+<form action="#" method="POST">
+    <label>Name:</label>
+    <p><input type="text" name="nm"></p>
+    <label>Password:</label>
+    <p><input type="text" name="regPassword" placeholder="**********"></p>
+    <p><input type="submit" value="submit"></p>
+</form>
+
+
+
+<nav>
+        <button2>
+        <a href="{{ ('/views/signup') }}">Sign Up For A New Account Here</a>
+        </button2>
+</nav>
+{% endblock %}

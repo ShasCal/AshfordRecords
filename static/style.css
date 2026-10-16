@@ -1,0 +1,74 @@
+body {
+    background-color: #222831;
+}
+
+.pagetitle {
+    text-align: center;
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
+
+
+}
+
+button {
+    font-size: 50px;
+    background-color: #B3D8FF;
+    border-radius: 5px;
+    border: 5px #31363F;
+}
+
+buttonright { /* this is a button that snaps to the right */
+    position: absolute;
+    right: 10px;
+    font-size: 50px;
+    background-color: #A2A9EE;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+    border: 5px #31363F;
+}
+
+buttonright2{ /* this is a smaller button that snaps to the right*/
+    position: absolute;
+    right:20px;
+    font-size: 30px;
+    background-color: #B3D8FF;
+    border-radius: 10px;
+    border: 20px #31363F;
+}
+
+button2{ /* this is a smaller button */
+    font-size: 25px;
+    background-color: #B3D8FF;
+    border-radius: 5px;
+    border: 5px #31363F;
+}
+
+h1{
+    padding: 1px;
+    text-size-adjust: 300%;
+    color: #76ABAE;
+}
+
+h2{
+    width: 60%;
+    text-size-adjust: 300%;
+    color: #76ABAE;
+}
+
+p{
+    color: #EEEEEE;
+}
+
+label{
+    color: #EEEEEE;
+
+}
+

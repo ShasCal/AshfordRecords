@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %} Create New Account {% endblock %}
+
+{% block content %}
+<h2>Please enter details to create new user account:</h2>
+
+<form action="#" method="POST">
+    <label>Name:</label>
+    <p><input type="text" name="regUsername"></p>
+  <label>Email:</label>
+    <p><input type="text" name="regEmail"></p>
+  <label>Password:</label>
+      <p><input type="text" name="regPassword" placeholder="**********"></p>
+    <p><input type="submit" value="submit"></p>
+</form>
+
+<nav>
+        <button2>
+        <a href="{{ ('/views/login') }}">Login To An Existing Account Here</a>
+        </button2>
+</nav>
+
+
+{% endblock %}

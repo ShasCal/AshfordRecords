@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <charset="UTF-8"></charset>
+    <title>{% block title %} Title {% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <div class= "pagetitle">
+        <img src="{{ url_for('static', filename='ashfordrecordslogo.png') }}" alt="ashford record shop logo" width ="150" height = "115"> <!-- for some reason, the title works on every page without issue, while the logo only works on the menu page -->
+        <h1>Ashford Record Shop</h1>
+
+    </div>
+
+    <nav>
+        <button>
+            <a href="{{ ('/views/') }}">menu</a> </button>
+        <button>
+        <a href="{{ ('/views/browse/') }}">browse</a>
+        </button>
+        <button>
+            <a href="{{ ('/views/news/') }}">news</a> </button>
+        <button>
+            <a href="{{ ('/views/lists/') }}">my list</a> </button>
+        <button>
+            <a href="{{ ('/views/contact/') }}">contact</a> </button>
+
+
+    </nav>
+
+
+
+        <buttonright>
+            <a href="{{ ('/views/login/') }}">login or sign up</a> </buttonright>
+        <buttonright2>
+            <a href="{{ ('/views/logout') }}">log out</a> </buttonright2>
+
+
+
+    <!-- button class is used here to make these links look like buttons, nav is used to group them together and add a border around them to create the nav "bar" -->
+
+</head>
+<body>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
